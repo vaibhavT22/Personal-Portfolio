@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    body{
+        background-color: #EBD3F8;
+    }
+    .header{
+        top: 0;
+        left: 0;
+        padding: 40px 30px;
+        color: #EBD3F8;
+        /* font-family: "Roboto Slab", serif; */
+        background-color: #2E073F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   .header h1:hover{
+        color: #AD49E1;
+        text-shadow: #EBD3F8;
+        text-decoration-line: overline ;
+    }
+    .nav a{
+        color: #EBD3F8;
+        font-size: 20px;
+        /* font-family: "Roboto Slab", serif; */
+        font-weight: 300;
+        margin: 0  20px;
+    }
+    .nav a:hover{
+        color: #AD49E1;
+        text-shadow: #EBD3F8;
+        text-decoration-line: overline ;
+    }
+    .nav .current{
+        color: #7A1CAC;
+        text-decoration: overline;
+    }
+    .ct{
+        padding: 10px 30px;
+        background-color: #AD49E1;
+        color: #2E073F;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .ct:hover{
+        border: 2px solid #7A1CAC;
+        background-color: #2E073F;
+        color: #EBD3F8;
+
+    }
+    .section{
+       width: 50%;
+     margin: 70px 0px 0px 100px;
+     
+       align-items: center;
+
+       padding: 70px 10% 0;
+
+
+    }
+    .image img{
+        border: 5px solid #7A1CAC;
+        border-radius: 48%;
+        width: 300px;
+        margin: -300px 700px;
+     
+    }
+    
+    .about h1{ 
+        font-size: 35px;
+        /* font-family: "Roboto Slab", serif; */
+    }
+    .about p{
+        font-size: 20px;
+        margin: 25px 0 30px;
+        line-height: 20px;
+        /* font-family: "Roboto Slab", serif; */
+    }
+    .about h3{
+        font-size: 22px;
+        /* font-family: "Roboto Slab", serif; */
+    }
+    .name{
+        color: #7A1CAC;
+    }
+    .footer{
+        bottom: 0;
+        width: 100%;
+    
+        padding: 10px 0;
+        
+        background-color: #2E073F; 
+        margin: 156px 0px 0px 0px ;
+    }
+    .footer .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: #EBD3F8;
+      
+       
+    }
+    .footer .social a{
+        font-size: 24px;
+        color: #EBD3F8;
+        border: 2px solid #EBD3F8;
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+
+
+
+    }
+
+</style>
+<body>
+    <header class="header">
+        <h1>Vaibhav </h1>
+        <nav class="nav">
+            <a href="home.html" class="current">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </nav> 
+        <a class="ct" href="mailto:tangadi.vaibhav07@gmail.com">Contact me</a>
+    </header>
+    <section class="section">
+        <div class="about">
+            
+
+            <h1>Hi, I’m <span class="name">Vaibhav Tangadi</span>
+            </h1><br>
+            <h3>Full stack developer</h3>
+            <p>I’m a passionate full-stack developer with a strong foundation in both front-end and back-end technologies.
+            </p><br>
+            
+            <div class="image">
+                <img src="images/pfp (2).jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        
+        <div class="social">
+            <a href="https://www.linkedin.com/in/vaibhav-tangadi-1a9012246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSCeHIf8NQpSXDxlUhiKefw%3D%3D"><i class='bx bxl-linkedin-square'></i></a>
+
+        </div>
+        <ul class="list">
+            <li>
+                <a href=""></a>
+            </li>
+        </ul>
+    </footer>
+   
+</body>
+</html>

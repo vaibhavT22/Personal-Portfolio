@@ -1,0 +1,340 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    body{
+        background-color: #EBD3F8;
+    }
+    .header{
+        top: 0;
+        left: 0;
+        padding: 40px 30px;
+        color: #EBD3F8;
+        background-color: #2E073F;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   .header h1:hover{
+        color: #AD49E1;
+        text-shadow: #EBD3F8;
+        text-decoration-line: overline ;
+    }
+    .nav a{
+        color: #EBD3F8;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0  20px;
+    }
+    .nav a:hover{
+        color: #AD49E1;
+        text-shadow: #EBD3F8;
+        text-decoration-line: overline ;
+    }
+    .nav .current{
+        color: #7A1CAC;
+        text-decoration: overline;
+    }
+    .ct{
+        padding: 10px 30px;
+        background-color: #AD49E1;
+        color: #2E073F;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .ct:hover{
+        border: 2px solid #7A1CAC;
+        background-color: #2E073F;
+        color: #EBD3F8;
+
+    }
+
+    .footer{
+        bottom: 0;
+        width: 100%;
+    
+        padding: 10px 0;
+        
+        background-color: #2E073F; 
+        margin: -1000px 0px 0px 0px ;
+    }
+    .footer .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: #EBD3F8;
+      
+       
+    }
+    .footer .social a{
+        font-size: 24px;
+        color: #EBD3F8;
+        border: 2px solid #EBD3F8;
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+        
+
+
+
+    }
+    .card1:hover, .card2:hover, .card3:hover, .card4:hover{
+            background-color: #7A1CAC;
+            
+        }
+    .card1{
+            background-color: #2E073F;
+            width: 40%;
+            height: 500px;
+            padding: 30px 30px 30px 30px ;
+            border-radius: 6px;
+            margin: 50px 100px;
+            color:#EBD3F8;
+            line-height: 32px;
+            font-size: 18px;
+            align-items: center;
+            text-align: justify;
+            /* letter-spacing: 0.5px; */
+            
+
+
+        }
+    .card2{
+            background-color: #2E073F;
+            width: 40%;
+            height: 400px;
+            padding: 30px 30px 30px 30px ;
+            border-radius: 6px;
+            margin: 50px 100px;
+            color:#EBD3F8;
+            line-height: 32px;
+            font-size: 18px;
+            align-items: center;
+            text-align: justify;
+            /* letter-spacing: 0.5px; */
+            
+
+
+        }
+    .card3{
+            background-color: #2E073F;
+            width: 40%;
+            height: 400px;
+            padding: 30px 30px 30px 30px ;
+            border-radius: 6px;
+            margin: -1000px 800px;
+            color:#EBD3F8;
+            line-height: 32px;
+            font-size: 18px;
+            align-items: center;
+            text-align: justify;
+            /* letter-spacing: 0.5px; */
+            
+
+
+        }
+        .card4{
+            background-color: #2E073F;
+            width: 40%;
+            height: 650px;
+            padding: 30px 40px 30px 30px ;
+            border-radius: 6px;
+            margin: 1050px 800px;
+            color:#EBD3F8;
+            line-height: 32px;
+            font-size: 18px;
+            align-items: center;
+            text-align: justify;
+            /* letter-spacing: 0.5px; */
+            
+
+
+        }
+        
+        
+    .fieldset1{
+        padding: 20px 15px 60px 15px;
+        margin: -15px 0px 0px 0px;
+     
+    }
+    .fieldset2{
+        padding: 20px 15px 5px 15px;
+        margin: -15px 0px 0px 0px;
+     
+    }
+     legend{
+        font-size: 20px;
+    }    
+ .card1 h1,.card2 h1 ,.card3 h1,.card4 h1{
+    font-size: 20px;
+ }
+   
+
+</style>
+<body>
+    <header class="header">
+        <h1>Vaibhav </h1>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="projects.html" class="current">Projects</a>
+            <a href="skills.html">Skills</a>
+        </nav>
+        <a class="ct" href="mailto:tangadi.vaibhav07@gmail.com">Contact me</a>
+    </header>
+
+
+    <div class="card1">
+        <fieldset class="fieldset1">
+            <legend>Project 1</legend>
+            <h1><Strong>Title: </Strong>Food Delivery Web Application</h1>
+       
+       <br>
+        <p>
+            <strong>Description: </strong>
+            <ul>
+                <li>
+                    Developed a food ordering website using JSP and Servlets
+                </li>
+                <li>
+                    Created login and signup features to manage user accounts
+                </li>
+                <li>
+                    Added restaurant and menu pages for users to browse and order food
+                </li>
+                <li>
+                    Built a cart system to add, update, and remove items before checkout
+                </li>
+                <li>
+                    Used MySQL to store user, order, and restaurant details
+                </li>
+            </ul>
+
+</p>
+</fieldset>
+
+    </div>
+
+    <div class="card2">
+        <fieldset class=" fieldset2">
+            <legend>Project 2</legend>
+            <h1><Strong>Title: </Strong>Simple To-Do List  </h1>
+       <br>
+        <p>
+            <strong>Description: </strong> 
+            <ul>
+                <li>
+                    Created a simple To-Do List web app using HTML, CSS, and JavaScript
+                </li>
+                <li>
+                    Added features to add, delete, and mark tasks as complete
+                </li>
+                <li>
+                    Used DOM manipulation to update tasks in real-time
+                </li>
+                <li>
+                    Applied responsive design for a smooth user experience across devices
+                </li>
+            </ul>
+</p>
+</fieldset>
+
+    </div>
+    <div class="card3">
+        <fieldset class=" fieldset2">
+            <legend>Project 3</legend>
+            <h1><Strong>Title: </Strong>Personal Portfolio </h1>
+       <br>
+        <p>
+            <strong>Description: </strong> 
+            <ul>
+                <li>
+                    Created a personal portfolio website
+                </li>
+                <li>
+                    Designed a clean and responsive layout using HTML and CSS
+                </li>
+                <li>
+                    Added navigation and hover effects with CSS for a better user experience
+                </li>
+                <li>
+                    Made sure the website works well on different screen sizes and browsers
+                </li>
+            </ul>
+</p>
+</fieldset>
+
+    </div>
+    <div class="card4">
+        <fieldset class=" fieldset2">
+            <legend>Project 4</legend>
+            <h1><Strong>Title: </Strong>Web App to Identify and Recognize Emotions for Children with <abbr title="Autism Spectrum Disorder">ASD</abbr> </h1>
+       <br>
+        <p>
+            <strong>Description: </strong> 
+            <ul>
+                <li>
+                    Developed a web application to help children with Autism Spectrum Disorder (ASD) recognize emotions
+ using facial expression analysis
+                </li>
+                <li>
+                    Built and trained a deep learning model using Keras and TensorFlow to classify emotions from images.
+                </li>
+                <li>
+                    Processed images using OpenCV to improve accuracy by resizing and normalizing them
+                </li>
+                <li>
+                    Used one-hot encoding to categorize emotions and trained the model with structured data
+                </li>
+                <li>
+                    Designed and created the website using HTML and CSS to make it user-friendly
+                </li>
+                <li>
+                    Worked in a team of four, focusing on building the website and ensuring a smooth user experience
+                </li>
+            </ul>
+</p>
+</fieldset>
+
+    </div>
+
+
+    
+
+    
+
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/vaibhav-tangadi-1a9012246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSCeHIf8NQpSXDxlUhiKefw%3D%3D"><i class='bx bxl-linkedin-square'></i></a>
+
+        </div>
+        <ul class="list">
+            <li>
+                <a href=""></a>
+            </li>
+        </ul>
+    </footer>
+   
+</body>
+</html>
